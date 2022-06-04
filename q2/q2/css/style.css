@@ -1,2 +1,17 @@
 @charset "UTF-8";
 /* 回答はここから */
+.wrapper{
+  display: flex;
+  justify-content: center;
+}
+.text{
+  width: 200px;
+  padding: 10px;
+  outline: solid 10px #655;
+  background: #d2b48c;
+  border-radius: 13px;
+  box-shadow: 0 0 0 6px #655;
+}
+.text:nth-child(2){
+  margin: 0 60px;
+}

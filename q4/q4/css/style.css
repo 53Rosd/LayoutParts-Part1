@@ -1,1 +1,48 @@
 @charset "UTF-8";
+
+.row-top{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.top{
+  padding:20px;
+  display: table-cell;
+  text-align: center;
+}
+.top:first-child{
+  width:300px;
+  background: #ff7b7b;
+}
+.top:nth-child(2){
+  background: #7b86ff;
+}
+.top:last-child{
+  width:300px;
+  background: #fff27b;
+}
+.row-bottom{
+  margin-top:50px;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.bottom{
+  padding:20px;
+  display: table-cell;
+  text-align: center;
+}
+.bottom:first-child{
+  background: #7bff91;
+}
+.bottom:nth-child(2){
+  background: #ff7be2;
+  width:400px;
+}
+.bottom:nth-child(3){
+  background: #ffc67b;
+  width:400px;
+}
+.bottom:last-child{
+  background: #7bf2ff;
+}
